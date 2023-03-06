@@ -4,7 +4,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color:rgb(232, 208, 255);
     overflow-x: hidden;
 }
 .txt{
@@ -17,12 +17,13 @@ body{
     position: relative;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: rgb(232, 208, 255);
 }
 .borde{
     position: absolute;
     left: 0%;
     top: 0%;
+    width:100%;
    /* transition:  0.3s linear;*/
 }
 .xtxt{
@@ -34,8 +35,4 @@ body{
 .ztxt{
     color:#0e0e0f;
 }
-@media screen and (max-width:748px) {
-    .borde{
-        left:20%;
-    }
-}
+
