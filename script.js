@@ -9,7 +9,7 @@ window.addEventListener('deviceorientation',function(e){
 
     //Parallax Effect
 
-    document.getElementsByClassName('borde')[0].style.transform = `translateY(-${x}%)`;
-    //document.getElementsByClassName('borde')[0].style.transform = `translateX(-${y}%)`;
+    document.getElementsByClassName('borde')[0].style.transform = `translateY(-${x*0.25}%)`;
+    document.getElementsByClassName('borde')[0].style.transform = `translateX(-${y*0.25}%)`;
 
 });
