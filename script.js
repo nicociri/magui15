@@ -10,6 +10,6 @@ window.addEventListener('deviceorientation',function(e){
     //Parallax Effect
 
     document.getElementsByClassName('borde')[0].style.transform = `translateY(-${x}%)`;
-    document.getElementsByClassName('borde')[0].style.transform = `translateX(-${y}%)`;
+    //document.getElementsByClassName('borde')[0].style.transform = `translateX(-${y}%)`;
 
 });

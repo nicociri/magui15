@@ -10,12 +10,14 @@ body{
 .txt{
     color:#fff;
 }
+
 .container{
     width: 100%;
     height: 100vh;
     position: relative;
     justify-content: space-around;
     align-items: center;
+    background-color: #fff;
 }
 .borde{
     position: absolute;
@@ -24,13 +26,13 @@ body{
    /* transition:  0.3s linear;*/
 }
 .xtxt{
-    color:#fff;
+    color:#0e0e0f;
 }
 .ytxt{
-    color:#fff;
+    color:#0e0e0f;
 }
 .ztxt{
-    color:#fff;
+    color:#0e0e0f;
 }
 @media screen and (max-width:748px) {
     .borde{
