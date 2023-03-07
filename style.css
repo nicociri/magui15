@@ -26,6 +26,13 @@ body{
     width:100%;
    /* transition:  0.3s linear;*/
 }
+.magui{
+    position: absolute;
+    left: 0%;
+    top: 2%;
+    width:100%;
+   /* transition:  0.3s linear;*/
+}
 .xtxt{
     color:#0e0e0f;
 }
