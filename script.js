@@ -14,8 +14,15 @@ window.addEventListener('deviceorientation',function(e){
       if (x < -50) {
         x = -50;
       }
+    
+    if (y > 50) {
+        y = 50;
+      }
+      if (y < -50) {
+        y = -50;
+      }
 
     //Parallax Effect
-    document.getElementsByClassName('borde')[0].style.transform = `translate(-${x}%,-${y}% )`;
+    document.getElementsByClassName('borde')[0].style.transform = `translate(-${y}%,-${x}% )`;
     
 });
